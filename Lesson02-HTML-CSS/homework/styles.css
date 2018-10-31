@@ -1,0 +1,42 @@
+
+body {
+	background-image: url("bgImage.png");
+	position: absolute;
+}
+
+h1 {
+	color: steelblue;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container > div {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#spanID {
+	font-size: 18px;
+	margin: 50px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: lightyellow;
+	padding: 50px;
+	border: 2px black solid;
+	margin: auto;
+}
+
+img {
+	width: 400px;
+}
